@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> The Monochromatic Blog</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    .navbar {
+      background: none;
+      border: none;
+      margin-bottom: -5px;
+    }
+
+
+    .navbar-collapse {
+      text-align: center;
+    }
+
+    .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    }
+
+    .navbar .navbar-brand {
+      margin-top: 20px;
+      font-size: 20px;
+      color: black;
+      font-family: arial;
+    }
+
+
+    #navelement {
+      color:black;
+      font-size: 20px;
+      margin-left: 20px;
+      border-radius: 5px;
+      transition-property: background, color;
+      transition-duration: .5s, .5s;
+    }
+
+    #navelement:hover {
+      background: gray;
+      color: white;
+    }
+
+
+
+    .current {
+      background: gray;
+      font-color: white; 
+    }
+
+    #parag1 {
+      width: 40%;
+      height: 300px;
+      background: red;
+    }
+
+    #home-image {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      transition-property: opacity;
+      transition-duration: .1s;
+    }
+
+    #home-image:hover {
+      opacity: .7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 30px;
+    }
+
+    a {
+      color: black;
+      transition-property: color;
+      transition-duration: .5s;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: gray;
+    }
+
+    #art1-image{
+      float: none;
+      width: 100%;
+    }
+
+    .row {
+      margin-bottom: 70px;
+    }
+
+
+
+
+    </style>
+
+  </head>
+  <body>
+
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">The Monochromatic Blog</a>
+
+      <div class="collapse navbar-collapse navHeaderCollapse">
+        <ul class="nav navbar-nav">
+          <li ><a href="#" id="navelement" class="current">Home</a></li>
+          <li ><a href="#" id="navelement">About</a></li>
+          <li ><a href="#" id="navelement">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+  <div class="row">
+    <article class="col-md-4">
+    <a href="#myModal" data-toggle="modal" data-target="#myModal"> <img src="4.jpg" id="home-image"> </a>
+    <h1><a href="#myModal" data-toggle="modal" data-target="#myModal">THE SPELLBOUND THINGS YOU ONLY LEARN ABOUT YOURSELF BY TRAVELLING THROUGH THE WORLD</a></h1>
+  </article>
+
+  <article class="col-md-4">
+    
+    <a href="#article2" data-toggle="modal" data-target="#article2"><img src="10.jpg" id="home-image"></a>
+    <h1><a href="#article2" data-toggle="modal" data-target="#article2"> YOU ASK ME ABOUT THESE RECKLESS TEENAGERS?</a></h1>
+  </article>
+
+  <article class="col-md-4">
+    <a href="#article3" data-toggle="modal" data-target="#article3"><img src="11.jpg" id="home-image"></a>
+        <h1><a href="#article3" data-toggle="modal" data-target="#article3">REASONS WHY WE FAILED TO LOVE EACH OTHER UNTIL FOREVER AFTER</a></h1>
+    </article>
+  </div>
+
+  <div class="row">
+    <article class="col-md-4">
+      <a href="#article4" data-toggle="modal" data-target="#article4" ><img src="12.jpg" id="home-image"></a>
+      <h1><a href="#article4" data-toggle="modal" data-target="#article4">TO THOSE WHO DON’T UNDERSTAND THE IDEA OF LOVE – IT WILL STRUCK YOU, JUST GIVE IT TRUST</a></h1>
+    </article>
+
+    <article class="col-md-4">
+      <a href="#article5" data-toggle="modal" data-target="#article5"><img src="15.jpg" id="home-image"></a>
+      <h1><a href="#article5" data-toggle="modal" data-target="#article5">THINGS I WISH SOMEONE TOLD ME BEFORE A NEW YEAR ARRIVED</a></h1>
+    </article>
+
+    <article class="col-md-4">
+      <a href="#article6" data-toggle="modal" data-target="#article6"><img src="16.jpg" id="home-image"></a>
+      <h1><a href="#article6" data-toggle="modal" data-target="#article6">ONE MAN’S THEORY ON THE DIFFERENCE BETWEEN WHAT MEN AND WOMEN WANT FROM EACH OTHER</a></h1>
+    </article>
+  </div>
+  </div>
+
+
+<!--- MODALS CODES -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>THE SPELLBOUND THINGS YOU ONLY LEARN ABOUT YOURSELF BY TRAVELLING THROUGH THE WORLD</h1>
+        </div>
+
+        <div class="modal-body">
+          <img src="4.jpg" id="art1-image">
+            <p>I put on sunblock daily despite of the weather – it’s just how defensive I am, regardless of appearances. I brush my teeth at least twice a day; I understand 5 languages but speak only a few. Music is the language I understand best, but best undressed, best on a bench, in the park, at 7 AM waiting for the bus while the sun shines dimly over, best when I’m in love.
+
+            I think that Friday nights are for white wine in the port of Barcelona – if not possible, these nights are made for sweaty, salty skin for different reasons – sex, dancing, running – in that order.
+            The best kisses are in the car, while waiting for the green light on one of the busiest boulevards. The best feeling is that something is going to happen – it pulls you out of dullness like a pig is pulled out of the mud pool. Best winter nights are in the pub where the light is dim and you know the bartender so you’ll get happily drunk. Best company on lonely nights, you ask – books. Sunburnt skin tastes the best.
+
+            Wanderlust will strike at most unexpected times, and that’s when you’ll pour watercolors over the people you meet, mostly in the colors of distant places where you want to go and of unexplored corners that you miss.
+            The painting will always contain a splash of turquoise because you always, undoubtedly miss the sea. The best songs will have chased you through sunny days in your headphones and drunken nights in loud places, from drunken mouths, filthy mouths; you’ve sung these songs while craving chocolate with someone who finally does deserve them. The best skyline will always be the most familiar. What you should long for and constantly fight for is authenticity – it’s like raw flesh left in the August sun, it stings your nose so you know it’s there, you can’t miss it.
+
+            The best stories to tell your children will be those about whom you once loved. 
+            And the best men are, actually, the worst – I wouldn’t believe it either if I wouldn’t be feeling heir claws reaching from inside out, through my skin, trying to get out of my soul, even after all these years. And the worst will make you shiver from your core like an earthquake, shaking the majestic planet that you are and tear down whatever walls you have built through the years with such devotion no one would believe you if you’d tell the story. The feeling of being safe – it’s what you’ll crave for every night, but it will be torn apart and sprinkled like snowflakes over the two of you, while spinning in the roller coaster that you both hopped on that midsummer night.
+
+            What you should always know is who you love; it’s sometimes the easiest and sometimes the hardest thing to tell, but it brings you right where you belong.  And you’ll know you love him because at night, you look at his face half-squished, stretching a smile on the pillow, and even without your glasses, you can still see him.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">CLose</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="article2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>YOU ASK ME ABOUT THESE RECKLESS TEENAGERS?</h1>
+        </div>
+
+        <div class="modal-body">
+        <img src="10.jpg" id="art1-image">
+          <p>I have never really understood the idea of love. I don’t understand how can two people fancy each other and live with each other throughout their lives. I don’t believe in love at first sight. I am a non-believer in the concept of soulmates.
+
+          I didn’t love him the first time I met him, and I didn’t love him three months later. I was infatuated, mesmerized, starry eyed, star crossed when I met him. I was exceedingly drawn towards him, but I was not love struck. He was on my mind every waking moment of the day, and at night he would pay me a visit in my dreams, but I didn’t love him. I had endless urge to talk to him, to see him, to kiss him, but I didn’t love him.
+
+          I didn’t love him when we started living together. We were two very different people. He had always been an adventurer, and I had always been a reader. Our playlists didn’t match, nor did our food habits. I had always liked wine, and he would always order scotch. His small habits sometimes annoyed me, and sometimes they made me laugh. We went for the movies and dinners and parties and vacations. I lived with him for two years, still infatuated, mesmerized, starry eyed and star crossed, but I didn’t love him.
+
+          I didn’t love him when we got married and when the romance evaporated. We grew used to each other. He would always meet me halfway. He would help me with the cooking and the cleaning and he would make sure that I didn’t spend money on ridiculous things. He would always meet me halfway. He would make me a coffee when he would make one for himself. We would spend hours in each others’ company without speaking a word, like there was no need, like silence was enough.
+
+          We are still two very different people, he is an adventurer, and I am a reader. Our playlists still don’t match, nor do our food habits. I still like wine, and he always orders scotch. But being with him has made me so much better. I’ve come to realize that love is in small things. I didn’t love him for a very long time after I met him. Our love needed nurturing, a constant effort from both the sides, and time to fully bloom. I have come to realize that love is like whiskey, it is not very delectable in its juvenile youth, but becomes better with maturity.
+
+          I have never really understood the idea of love and I don’t understand how two people fancy each other throughout their lives, but since it’s you, I am ready to meet you halfway. And the fact that you are ready to meet me halfway too, makes me think I might fancy you throughout my life, and finally, I might be love-struck.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="article3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>REASONS WHY WE FAILED TO LOVE EACH OTHER UNTIL FOREVER AFTER</h1>
+        </div>
+
+        <div class="modal-body">
+        <img src="11.jpg" id="art1-image">
+          <p>Nobody taught me
+              how to forgive
+              How to stop spending my last pennies on
+              cigarettes
+              perfume
+              or vintage designer home wear
+              I still keep a tooth for an eye
+              inside my closet
+              Where I also tuck my deepest fears
+              along with my long gone years
+              and most of the tears
+              I bought my apparent silence
+              Insensibility
+              and courage with
+              My therapist told me I’m lacking the software
+              for letting myself be loved
+              He thinks the other way around
+              He sees the best in me
+              because
+              to be perfectly sincere
+              I’ve given all the worst in me to me
+              I still confuse affection for aggression
+              as my mother taught me
+              I still chase missing father figures
+              in absent minded boys who think they’ve become men
+              I still unravel too much in front of strangers
+              because strangers are out of reach
+              I still blame myself, my past
+              my family and
+              my longing for belonging
+              the way he
+              whom I loved in all atonement
+              blamed
+              and after all these years
+              I still don’t know how to forgive
+              move on
+              let love in
+              send birthday cards
+              and Holiday greetings
+              Even if I like
+              to say I move
+              to keep things whole
+              I move to make the sadness lesser
+              and the opposites attract
+              Living in a city by the sea
+              I heard this always helps.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="article4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div id="modal-header">
+          <h1>TO THOSE WHO DON’T UNDERSTAND THE IDEA OF LOVE – IT WILL STRUCK YOU, JUST GIVE IT TRUST</h1>
+        </div>
+
+        <div class="modal-body">
+          <img src="12.jpg" id="art1-image">
+          <p>I have never really understood the idea of love. I don’t understand how can two people fancy each other and live with each other throughout their lives. I don’t believe in love at first sight. I am a non-believer in the concept of soulmates.
+
+          I didn’t love him the first time I met him, and I didn’t love him three months later. I was infatuated, mesmerized, starry eyed, star crossed when I met him. I was exceedingly drawn towards him, but I was not love struck. He was on my mind every waking moment of the day, and at night he would pay me a visit in my dreams, but I didn’t love him. I had endless urge to talk to him, to see him, to kiss him, but I didn’t love him.
+
+          I didn’t love him when we started living together. We were two very different people. He had always been an adventurer, and I had always been a reader. Our playlists didn’t match, nor did our food habits. I had always liked wine, and he would always order scotch. His small habits sometimes annoyed me, and sometimes they made me laugh. We went for the movies and dinners and parties and vacations. I lived with him for two years, still infatuated, mesmerized, starry eyed and star crossed, but I didn’t love him.
+
+          I didn’t love him when we got married and when the romance evaporated. We grew used to each other. He would always meet me halfway. He would help me with the cooking and the cleaning and he would make sure that I didn’t spend money on ridiculous things. He would always meet me halfway. He would make me a coffee when he would make one for himself. We would spend hours in each others’ company without speaking a word, like there was no need, like silence was enough.
+
+          We are still two very different people, he is an adventurer, and I am a reader. Our playlists still don’t match, nor do our food habits. I still like wine, and he always orders scotch. But being with him has made me so much better. I’ve come to realize that love is in small things. I didn’t love him for a very long time after I met him. Our love needed nurturing, a constant effort from both the sides, and time to fully bloom. I have come to realize that love is like whiskey, it is not very delectable in its juvenile youth, but becomes better with maturity.
+
+          I have never really understood the idea of love and I don’t understand how two people fancy each other throughout their lives, but since it’s you, I am ready to meet you halfway. And the fact that you are ready to meet me halfway too, makes me think I might fancy you throughout my life, and finally, I might be love-struck.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+   <div class="modal fade" id="article5">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div id="modal-header">
+          <h1>THINGS I WISH SOMEONE TOLD ME BEFORE A NEW YEAR ARRIVED</h1>
+        </div>
+
+        <div class="modal-body">
+          <img src="15.jpg" id="art1-image">
+          <p>People underestimate what a whole goddamn year can do.
+
+          You don’t have to look that far back, try to remember how you were this day, today, last year. And ask yourself a whole lot of questions:
+          Do you have the same people whom you were grateful for with you now?
+          Was this year like you thought it would turn out to be?
+          What happened? Did that change you?
+          In a good or a bad way?
+          Is that really what you want to carry into the next year?
+          Please don’t just celebrate the passing of years, celebrate your life.
+          Celebrating doesn’t mean just thinking of the good things, but think, really, about the things that went horribly wrong this year.
+          What went wrong?
+          Why did it went wrong?
+          Is it irreversible?
+          Do you want it back?
+          Why?
+
+          Know yourself a little bit better than you did last year.
+          Doesn’t matter that now you’re sitting alone and reading this, and you don’t have your best friends with you anymore. FORGET IT. You’ll find new people. Yes, you will.
+          Forget how your lover left you to hold another’s heart,
+          Did that change you?
+          Should that change you?
+          Are you making the same mistakes like before?
+          Are you? Why? Don’t. Don’t fix it if you didn’t break it. You are intact. Yes, you are. Don’t break for someone who won’t even look to see how you’re doing. Build yourself up so strong that they look at you with O shaped lips.Look around.
+          Come on, look around.
+          Do you want to live like this?
+          Do you want to live here?
+          Look outside the room’s window, or outside the window of the vehicle you’re sitting in, look out.
+          It looks the same like it did last year, doesn’t it? Don’t sigh. It’s not. It’s the same scene.
+          But it’s all different. Everything is different than before!
+          Don’t forget how you got here.
+          Don’t look down and keep bumping into the same people all your life, look up, darling.
+          There are so many others who are waiting for someone like you.
+          Are you ready?Do you remember when last year you thought you wouldn’t need anything anymore and everything was perfect, but it all went to hell?
+          And you thought the pain would never end and this was one of the worst years of your life?
+          Look outside, dear.
+          Even if it looks different, it’s not.
+          And next year is coming, are you ready?
+          The past is the past, you know.
+          Look back to see how much you deserve happiness. And then go get it. Do you want it? Do you want the happiness seeping in your bones? You can have it. Yes, you can.
+          Are you brave enough to ask for it? You gotta make it yourself, darling. And you can.
+          You don’t need to be anything else,
+          you don’t need to be alone,
+          you don’t need the ones who made you cry to make you happy again,
+          you don’t need them to sing you songs to make you happy! You’re enough. Yes, you are. Look how complete you are. It’s okay. I don’t know you, but I know you’re so complete. I can feel it in your eyes as you read this. I’m smiling warmly right at you. Smile! You’re so beautiful/ handsome, my god.Look up to the sky!
+          Look!
+          It’s a new year!
+          It’s going to feel like it’s the same song playing but I can PROMISE you it isn’t.
+          Decide to be happy.
+          Decide.
+          Promise that you’ll try to be as happy as you can possible be.
+          Promise that you’ll tell people you love them, more times than is necessary. God knows everyone wants to hear it millions of times! They’ll say it back! They’ll say it back a million times! Promise that you won’t be afraid of crying,
+          promise you’ll rely on yourself.
+          Promise you’ll never regret anything that caused you pain. Promise that you’ll admit your mistakes.
+          Promise that you won’t break your own heart. Even if you do, promise that you won’t blame and hurt other people. Nobody deserves that.Look forward to yourself, darling.
+          Look forward to the next year!
+          And don’t forget to hope. It’ll keep you warm when days are cold and gloomy and lonely.
+          And if you’ll lose it all by mistake or you’ve run out of it, remember this:
+          Have you? As long as there is a sun shining at your window and a moon following your car at night, you can also live for better days.Just look forward, darling. Look forward to your life! It’s the only one you’ll get as you! Live for yourself! It’s a new year!</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="modal fade" id="article6">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div id="modal-header">
+          <h1>ONE MAN’S THEORY ON THE DIFFERENCE BETWEEN WHAT MEN AND WOMEN WANT FROM EACH OTHER</h1>
+        </div>
+
+        <div class="modal-body">
+          <img src="16.jpg" id="art1-image">
+          <p>Me: Will you tell me your theory about what women want versus what men want? I thought it was so interesting.
+
+Him: Men want the vulnerability of what their mothers gave them. A safe place where all mistakes are forgiven and all burdens are shared if not taken away completely. It’s messed up because women want the strength their fathers gave (or didn’t give) them.
+
+They don’t want a boy who is vulnerable, they want a man who will take care of shit the way their father did.
+
+They want their man to carry it all on the inside so that they feel safe and protected, the way their father’s made them feel (hopefully).
+
+So therefore, a man never gets what he naturally wants. He has to play a part.
+
+I worked all this out when I had a daughter and realized how unconditional my love was for her, and then I realized that she would be seeking that forever… From boys who just want a shoulder to cry on.
+
+Just watch Mad Men. The writing on that show is so real to me. Such a great character. Men love that show because they see a lot of themselves in his character; the same way women did with Sex & The City and those four characters. You know, the era of the show, the 60’s or whatever and the cute throwback moments are just icing on the cake.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
